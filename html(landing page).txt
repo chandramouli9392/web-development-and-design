@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">MyBrand</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2>Welcome to My Landing Page</h2>
+            <p>Create, innovate, and transform your ideas into reality.</p>
+            <a href="#features" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We help you design and build solutions that make a difference.</p>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>Easy to Use</h3>
+                    <p>Intuitive designs that anyone can navigate.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Responsive Design</h3>
+                    <p>Perfectly optimized for all screen sizes.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Secure</h3>
+                    <p>Your data is safe with our robust security protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <p>Contact us at: info@mybrand.com</p>
+            <p>Follow us on <a href="#">Social Media</a></p>
+            <p>© 2025 MyBrand. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
